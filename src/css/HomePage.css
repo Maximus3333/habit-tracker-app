@@ -1,0 +1,22 @@
+.homePageContainer{
+    height: inherit;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to bottom right, #bebfc3, #85878c);    
+
+
+}
+
+.homePageBodyContainer{
+    height: 80vh;
+    width: 60vw;
+    margin-right: 100px;
+    margin: auto;
+    background: #e7e9ec;
+    box-shadow: 20px 20px 50px 15px #55575b;
+
+}
+
+.headerIcon{
+    padding: 5px;
+}
