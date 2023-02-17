@@ -10,22 +10,23 @@ import {
   Text,
   Heading,
   SimpleGrid,
-
 } from "@chakra-ui/react";
 import HabitCardList from "../components/HabitCardList";
 
-import '../css/HomePage.css'
+import "../css/HomePage.css";
+import DailyScheduleDashboard from "../components/DailyScheduleDashboard";
+import Sidebar from "../components/Sidebar";
 
 function HomePage() {
-
   return (
     <ChakraProvider>
-    <div className="homePageContainer">
-    <div className="homePageBodyContainer">
-            <HabitCardList/>
-
+      <div className="homePageContainer">
+        <Sidebar/>
+        <div className="homePageBodyContainer">
+          <HabitCardList />
         </div>
-    </div>
+        <DailyScheduleDashboard />
+      </div>
     </ChakraProvider>
   );
 }
